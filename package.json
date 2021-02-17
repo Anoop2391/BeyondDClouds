@@ -1,0 +1,28 @@
+{
+  "name": "camping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "gulp connect:dev",
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "resolutions": {
+    "graceful-fs": "4.2.4"
+  },
+  "author": "Anoop singh",
+  "license": "ISC",
+  "dependencies": {
+    "bower": "^1.8.12",
+    "gulp": "3.9.1",
+    "gulp-cache-bust": "1.1.0",
+    "gulp-clean": "0.3.2",
+    "gulp-connect": "5.0.0",
+    "gulp-filter": "5.0.0",
+    "gulp-load-plugins": "1.5.0",
+    "gulp-sass": "3.1.0",
+    "gulp-uglify": "2.1.2",
+    "gulp-util": "3.0.8",
+    "gulp-watch": "4.3.11"
+  }
+}
